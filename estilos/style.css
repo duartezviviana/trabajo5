@@ -1,0 +1,57 @@
+/*se le coloca un margen*/
+*{
+    margin: 20px;
+}
+/*pagina de horaris de atencion*/
+.titulo{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+.dias{
+    /*A los días se le asignará la etiqueta html para que queden en negrita*/
+    font-weight: bold;
+    /*se le definirá un color y un tamaño de letra mayor*/
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+}
+.hora{
+    /* a los horarios se le
+asignará la etiqueta para que queden en cursiva.*/
+    font-style: italic;
+    text-align: center;
+}
+.header{
+    color: blue;
+}
+.footer{
+    color: red;
+}
+/*pagina index*/
+/*asignará una clase a la etiqueta header*/
+.header2{
+    /*se le dará un color de fondo*/
+background-color: coral;
+/*alto y el ancho del 100% de la pantalla*/
+height: 100%;
+width: 100%;
+
+}
+.ul{
+    list-style: none;
+}
+.footer2{
+    /*color de fondo,*/
+    background-color: darkkhaki;
+    /*ancho 100%*/
+    width: 100%;
+    /*ñargo*/
+    height: 20%;
+}
+/*pagina contacto*/
+.main{
+    border-top: 1px, solid;
+    border-left: 1px, solid;
+    border-width: 1px , solid;
+}
